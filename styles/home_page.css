@@ -1,6 +1,6 @@
 #navbar+div{
 
-   border:1px solid;
+ 
     width:95%;
     margin:auto;
     height:auto;
@@ -45,11 +45,11 @@ b{
 }
 
 
-#navbar+div>p{
+.get_started_button{
 
-    width:18%;
-    margin:auto;
-    margin-top:5%;
+  width:18%;  
+  margin:auto;
+  margin-top:5%;
   font-size:20px;
   font-family:Avenirnextltpro, sans-serif;
   background-color:#3B8FC2;
@@ -59,23 +59,16 @@ b{
   font-weight:600;
 }
 
-#navbar+div>p:hover{
+.get_started_button:hover{
 
-    width:18%;
-    margin:auto;
-    margin-top:5%;
-  font-size:20px;
-  font-family:Avenirnextltpro, sans-serif;
   background-color:#225270;
-  color:white;
-  padding:1.5% 2%;
-  border-radius:8px;
-  font-weight:600;
 }
+
+
 
 #navbar+div+div{
 
-    border:1px solid;
+
     width:80%;
     margin:auto;
     margin-top:7%;
@@ -88,7 +81,7 @@ b{
 
 #navbar+div+div+div{
 
-    border:1px solid;
+
     width:75%;
     margin:auto;
     height:auto;
@@ -118,7 +111,6 @@ b{
 
 #middle{
 
-    border:1px solid;
     height:auto;
     width:85%;
     margin:auto;
@@ -136,7 +128,6 @@ b{
 
 .template{
 
-    border:1px solid;
     width:90%;
     margin:auto;
     height:auto;
@@ -193,7 +184,7 @@ width:30%;
 
 .reverse_template{
 
-    border:1px solid;
+  
     width:90%;
     margin:auto;
     height:auto;
@@ -250,7 +241,6 @@ width:30%;
 
 .reverse_template+.template+div{
 
-    border:1px solid;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -274,12 +264,18 @@ width:30%;
     font-weight:500;
     line-height:30px;
     color: rgb(59, 143, 194);
+    text-decoration:underline;
+}
+
+.reverse_template+.template+div>a>div:nth-child(1):hover{
+
+    text-decoration:underline white;
 }
 
 
 .reverse_template+.template+div>div:nth-child(2){
 
- 
+
     font-size: 30px;
     font-weight:400;
     line-height:18px;
@@ -290,7 +286,6 @@ width:30%;
 
 .template+div+h1{
 
-    border:1px solid;
     text-align:center;
     margin-top:9%;
     font-family:"Avenir Next", sans-serif;
@@ -302,14 +297,492 @@ width:30%;
 
 .template+div+h1+div{
 
-    border:1px solid;
-    height:300px;
+    height:auto;
+    width:80%;
+    margin:auto;
+    text-align:center;
+    display:flex;
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows:repeat(2,1fr);
+    gap:70px;
+    margin-top:7%;
+    align-items:center;
 }
 
-.template+div+h1+div>div{
+.template+div+h1+div>div>h2{
+
+font-family:"Avenir Next", sans-serif;
+font-size:27px;
+font-weight:600;
+line-height:32.4px;
+color: rgb(55, 93, 117);
+}
+
+.template+div+h1+div>div>h2+p{
+
+    font-family:"Avenir Next", sans-serif;
+    font-size:19px;
+    font-weight:600;
+    line-height:28.5px;
+    color: rgb(55, 93, 117);
+    margin-top:10%;
+    margin-bottom:8%;
+}
+
+.template+div+h1+div>div>p+a>p{
+
+    font-family:"Avenir Next", sans-serif;
+    font-size:18px;
+    font-weight:400;
+    line-height: 30px;
+    color: rgb(59, 143, 194);
+    text-decoration:underline;
+    border-bottom:1px rgb(59, 143, 194);
+}
+
+.template+div+h1+div>div>p+a>p:hover{
+
+    text-decoration:underline white;
+    
+}
+
+.template+div+h1+div>div:nth-child(6){
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.template+div+h1+div>div>a:nth-child(1)>div{
+
+    font-family:"Avenir Next", sans-serif;
+    font-size:25px;
+    font-weight:500;
+    line-height:30px;
+    color: rgb(59, 143, 194);
+    text-decoration:underline;
+}
+
+.template+div+h1+div>div>a:nth-child(1)>div:hover{
+
+    text-decoration:underline white;
+}
+
+.template+div+h1+div>div>div{
+
+    font-size:30px;
+    color: rgb(59, 143, 194);
+    margin-left:2%;
+}
+
+#middle_end{
+
+    text-align:center;
+    font-family:"Avenir Next", sans-serif;
+    font-size:36px;
+    font-weight:600;
+    line-height: 43.2px;
+    color:rgb(55, 93, 117);
+    margin-top:10%;
+}
+
+#middle_end+p{
+
+    margin:auto;
+    text-align:center;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:18px;
+    font-weight:400;
+    line-height:27px;
+   color: rgb(33, 37, 41);
+   margin-top:3%;
+}
+
+#middle_end+p+p{
+
+    margin:auto;
+    text-align:center;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:18px;
+    font-weight:400;
+    line-height:27px;
+   color: rgb(33, 37, 41);
+}
+
+#middle_end_soon{
+
+    width:90%;
+    margin:auto;
+    height:auto;
+   display:flex;
+   justify-content:space-evenly;
+   margin-top:5%;
+  
+}
+
+#middle_end_soon>div{
+
+    width:30%;
+}
+
+#middle_end_soon>div>p{
+
+    width:87%;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    line-height:23.4px;
+    color: rgb(33, 37, 41);
+}
+
+#middle_end_soon>div>h3{
+
+    font-family: Avenirnextltpro, sans-serif;
+    font-size: 18px;
+    font-weight:900;
+    line-height: 23.4px;
+    color: rgb(33, 37, 41);
+    margin-top:7%;
+    margin-bottom:11%;
+}
+
+.link_and_arrow{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:3%;
+}
+
+
+.link_and_arrow>a>div{
+
+    font-family:"Avenir Next", sans-serif;
+    font-size:25px;
+    font-weight:500;
+    line-height:30px;
+    color: rgb(59, 143, 194);
+    text-decoration:underline;
+}
+
+.link_and_arrow>a>div:hover{
+
+    text-decoration:underline white;
+}
+
+.link_and_arrow>div{
+
+    font-size:30px;
+    color: rgb(59, 143, 194);
+    margin-left:1%;
+}
+
+.link_and_arrow+h1{
+
+    text-align:center;
+    margin-top:8%;
+    font-family:"Avenir Next", sans-serif;
+    font-size: 30px; 
+    font-weight: 600;
+    line-height:38.4px;
+    color: rgb(55, 93, 117);
+}
+
+.link_and_arrow+h1+p{
+
+    width:53%;
+    margin:auto;
+    font-family: Avenirnextltpro, sans-serif;
+    font-size:18px;
+    font-weight:400;
+    line-height: 27px;
+    color:rgb(33, 37, 41);
+    text-align:center;
+}
+
+.link_and_arrow+h1+p+div{
+
+    width:45%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2%;
+}
+
+.tick_and_link{
+
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.tick_and_link>div{
+
+    color: rgb(59, 143, 194);
+    font-size: 17px;
+}
+
+.tick_and_link>p{
+
+ 
+  margin-left:0.2%;
+  font-family:"Avenir Next", sans-serif;
+  font-size: 15px;
+  font-weight:500;
+  line-height:24px;
+  color: rgb(59, 143, 194);
+  text-decoration:underline;
+}
+
+.tick_and_link>p:hover{
+
+    text-decoration:underline white;
+  }
+
+
+  #bottom{
+
+    width:90%;
+    margin:auto;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+   
+    margin-top:12%;
+  }
+
+  #bottom>div:nth-child(1){
+
+    width:55%;
+    padding:2%;
+    background-color:#F8FAFB;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+   
+  }
+
+  #bottom>div:nth-child(2){
+
+    width:35%;
+    padding:2%;
+    background-color:#FAF9F7;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+  }
+
+  #bottom>div:nth-child(1)>h1{
+
+    width:60%;
+    margin:auto;
+    font-family:"Avenir Next", sans-serif;
+    font-size:35px;
+    font-weight:600;
+    line-height:46.08px;
+    color:rgb(55, 93, 117);
+    margin-top:-0.5%;
+  }
+
+  #bottom>div:nth-child(1)>h1+p{
+
+    width:35%;
+    padding:2.5% 2%;
+    margin:auto;
+ 
+  }
+
+  #bottom>div:nth-child(1)>p+p{
+
+    width:85%;
+    margin:auto;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    line-height:25px;
+    color:rgb(55, 93, 117);
+    
+  }
+
+  #bottom>div:nth-child(1)>p+p>a{
+
+    font-family:Avenirnextltpro, sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    line-height:25px;
+    color:black;
+    text-decoration:underline;
+  }
+
+  #bottom>div:nth-child(1)>p+p>a:hover{
+
+    text-decoration:underline white;
+  }
+
+
+
+  #bottom>div:nth-child(2)>h1{
+
+    width:90%;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:38.4px;
+    font-weight:400;
+    line-height:46.08px;
+    color:rgb(55, 93, 117);
+ margin-top:-1%;
+  }
+
+  #bottom>div:nth-child(2)>h1+p{
 
     border:1px solid;
+    width:38%;
+    padding:3.5% 2%;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size: 18px;
+    font-weight:500;
+    line-height:30px;
+    color:#5C7381;
+    background-color:#FAF9F7;
+   text-align:center;
+   margin:0px;
+  }
+
+  #bottom>div:nth-child(2)>h1+p:hover{
+
+   
+      color:white;
+      background-color:#3A7AA1;
+      
+    }
+
+
+  #bottom>div:nth-child(2)>p+p{
+
+    width:85%;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    line-height:25px;
+    color:rgb(55, 93, 117);
+    margin-top:7%;
+  }
+
+  #bottom_end{
+
+    border:1px solid #375D75;
+    height:auto;
+    margin-top:5%;
+    background-color:#375D75;
+  }
+
+  #bottom_end>div{
+
+    width:95%;
+    height:auto;
+    margin:auto;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:5%;
+    
+   
+  }
+
+  #bottom_end>h2{
+
+    width:95%;
+    height:auto;
+    margin:auto;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:20px;
+    font-weight:250;
+    line-height:26.4px;
+    color: rgb(219, 241, 255);
+    text-align:center;
+    margin-top:2%;
+    margin-bottom:2%;
+  }
+
+  #bottom_end>h2>a{
+
+   
+    width:95%;
+    height:auto;
+    margin:auto;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:22px;
+    font-weight:750;
+    line-height:26.4px;
+    color: rgb(219, 241, 255);
+    text-align:center;
+    margin-top:2%;
+    text-decoration:underline;
+  }
+
+  #bottom_end>h2>a:hover{
+
+  
+    text-decoration:underline rgb(55, 93, 117);
+  }
+
+
+
+#bottom_end>div>div:nth-child(1)>img{
+   
+   
+    width:50%;
 }
+
+#bottom_end>div>div:nth-child(1)>p{
+   
+    
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:15px;
+    font-weight:200;
+    line-height: 18px;
+    color: rgb(219, 241, 255);
+}
+
+
+#bottom_end>div>div:nth-child(1){
+
+    width:11%;
+}
+
+#bottom_end>div>div>div{
+
+   font-family:Avenirnextltpro, sans-serif;
+   font-size:16px;
+   font-weight:400;
+   line-height:19.2px;
+   color: rgb(219, 241, 255);
+   margin-bottom:10%;
+ 
+}
+
+#bottom_end>div>div>div:nth-child(1){
+
+   height:35px;
+   font-family:Avenirnextltpro, sans-serif;
+   font-size:17.6px;
+   font-weight:750;
+   line-height:21.12px;
+   color: rgb(219, 241, 255);
+ 
+}
+
+
+#bottom_end>div>div:nth-child(3){
+
+   width:14%;
+}
+
+#bottom_end>div>div:nth-child(4){
+
+    width:14%;
+ }
