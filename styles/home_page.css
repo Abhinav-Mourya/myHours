@@ -57,6 +57,7 @@ b{
   padding:1.5% 2%;
   border-radius:8px;
   font-weight:600;
+  cursor:pointer;
 }
 
 .get_started_button:hover{
@@ -310,6 +311,24 @@ width:30%;
     align-items:center;
 }
 
+.template+div+h1+div>div:nth-child(2){
+
+   background:url(https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc9199aba16f3d43d7e7547_Polygon%202.png);
+
+  background-repeat: no-repeat;
+}
+
+.template+div+h1+div>div:nth-child(3){
+
+    background:url();
+ 
+   background-repeat: no-repeat;
+ }
+
+
+
+
+
 .template+div+h1+div>div>h2{
 
 font-family:"Avenir Next", sans-serif;
@@ -536,6 +555,7 @@ color: rgb(55, 93, 117);
   line-height:24px;
   color: rgb(59, 143, 194);
   text-decoration:underline;
+  cursor:pointer;
 }
 
 .tick_and_link>p:hover{
@@ -736,6 +756,7 @@ color: rgb(55, 93, 117);
    
    
     width:50%;
+    cursor:pointer;
 }
 
 #bottom_end>div>div:nth-child(1)>p{
@@ -785,4 +806,9 @@ color: rgb(55, 93, 117);
 #bottom_end>div>div:nth-child(4){
 
     width:14%;
+ }
+
+ #bottom_end>div>div>div{
+
+    cursor:pointer;;
  }
