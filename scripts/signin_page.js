@@ -12,11 +12,6 @@ function focus_email(){
    email_input.style.marginBottom="10%";
   
 
-   if(email_input.value=="")
-   {
-      email_input.insertAdjacentHTML("afterend","<p>Please enter a valid email</p>");
-   }
-
 }
 
 function blur_email(){
@@ -28,7 +23,6 @@ function blur_email(){
     email_input.style.boxShadow="none";
     email_input.style.marginBottom="6%";
     
-   document.querySelector("#email+p").remove();
 }
 
 
@@ -61,4 +55,38 @@ function blur_password(){
 }
 
 
+document.querySelector("form").addEventListener("submit", check_data);
 
+
+function check_data(event){
+
+event.preventDefault();
+
+let email_value=document.querySelector("#email").value;
+let password_value=document.querySelector("#password").value;
+let data_arr=JSON.parse(localStorage.getItem("person_details"));
+let count=0;
+data_arr.forEach(function(el){
+
+if(email_value==el.person_email && password_value==el.person_password)
+{
+  count=1;
+  window.location.href="home_page.html";
+}
+
+})
+
+if(count==0)
+{
+  alert("Wrong credentials");
+}
+};
+
+
+document.querySelector("#submit+p").addEventListener("click", reset_password);
+
+function reset_password(){
+
+window.location.href="reset_password_page.html";
+
+}
