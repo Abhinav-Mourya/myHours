@@ -1,0 +1,102 @@
+#navbar+h1{
+
+ 
+    margin:auto;
+    margin-top:12%;
+    width:90%;
+    font-family: Avenirnextltpro, sans-serif;
+    font-size: 50px;
+    font-weight:700;
+    line-height:60px;
+    color:rgb(33, 37, 41);
+}
+
+.h1_tag{
+
+
+    width:90%;
+    margin:auto;
+    margin-top:7%;
+    font-family: Avenirnextltpro, sans-serif;
+    font-size:30px;
+    font-weight:700;
+    line-height: 36px;
+    color: rgb(33, 37, 41);
+
+}
+
+.p_tag{
+
+   
+    width:90%;
+    margin:auto;
+    margin-top:2%;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:19.2px;
+    font-weight:400;
+    line-height:26.88px;
+    color: rgb(33, 37, 41);
+}
+
+a{
+
+    text-decoration:underline black;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:19.2px;
+    font-weight:400;
+    line-height:26.88px;
+    color: rgb(33, 37, 41);
+}
+
+.list{
+
+  
+    width:85%;
+    margin:auto;
+    margin-top:2%;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:19.2px;
+    font-weight:400;
+    line-height:26.88px;
+    color: rgb(33, 37, 41);
+}
+
+.h1_tag_color{
+
+   
+    width:90%;
+    margin:auto;
+    margin-top:7%;
+font-family:Avenirnextltpro, sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 26.4px;
+color: rgb(57, 114, 148);
+}
+
+.p_tag_height{
+
+  
+    width:90%;
+    margin:auto;
+    font-family:Avenirnextltpro, sans-serif;
+    font-size:19.2px;
+    font-weight:400;
+    line-height: 26.4px;
+    color: rgb(33, 37, 41);
+}
+
+.h1_tag_margin_bottom{
+
+   
+    width:90%;
+    margin:auto;
+    margin-top:7%;
+    margin-bottom:2%;
+    font-family: Avenirnextltpro, sans-serif;
+    font-size:30px;
+    font-weight:700;
+    line-height: 36px;
+    color: rgb(33, 37, 41);
+
+}

@@ -47,7 +47,24 @@ input{
     border-color:rgb(201, 192, 192);
 }
 
-#welcome{
+#country{
+
+
+    border:1px solid;
+    display:block;
+    width:101.5%;
+    height:34px;
+    border-radius:3px;
+    border-color:rgb(201, 192, 192);
+}
+
+#country>option{
+
+    color: rgb(108, 117, 125);
+
+}
+
+#company{
 
  
     font-family:Inter, sans-serif;
@@ -86,7 +103,7 @@ label{
 
 }
 
-#email_label{
+#country_label{
 
     font-family:Inter, sans-serif;
     font-size:12px;
@@ -96,7 +113,7 @@ label{
     margin-bottom:1%;
 }
 
-#email_label+label{
+#country_label+label{
 
     font-family:Inter, sans-serif;
     font-size:15px;
@@ -106,7 +123,7 @@ label{
     margin-bottom:1%;
 }
 
-#password_label{
+#company_size_label{
 
     font-family:Inter, sans-serif;
     font-size:12px;
@@ -117,14 +134,14 @@ label{
     margin-top:5%;
 }
 
-#password_label+label{
+#company_size_label+label{
 
     font-family:Inter, sans-serif;
     font-size:15px;
     font-weight:500;
     line-height:18px;
     color: rgb(108, 117, 125);
-    margin-bottom:10%;
+    
 }
 
 
@@ -175,7 +192,7 @@ form>a>p:hover{
 
 #submit{
 
-    width:12%;
+    width:auto;
     height:35px;
     margin:auto;
     margin-top:4%;
@@ -184,6 +201,14 @@ form>a>p:hover{
     font-size:16px;
     font-weight:500;
     cursor:pointer;
+}
+
+
+#submit:hover{
+
+   
+    background-color:#598eaf;
+   
 }
 
 form>div{
@@ -267,4 +292,64 @@ margin-top:3%;
 }
 
 
+#size{
 
+    width:55%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    margin-left:-1%;
+    
+}
+
+#size>div{
+
+    padding:2%;
+    color:black;
+    background-color:#d7e0e6;
+    cursor:pointer;
+}
+
+
+
+#size>div:hover{
+
+ 
+    background-color:#90a8b8;
+    
+}
+
+#mobile_label{
+
+    font-family:Inter, sans-serif;
+    font-size:12px;
+    font-weight:700;
+    line-height:18px;
+    color: rgb(0, 0, 0);
+    margin-bottom:1%;
+    margin-top:4%;
+}
+
+
+#submit+a{
+
+ 
+    text-align:center;
+    
+}
+
+#submit+a>div{
+   margin-top:2%;
+    color:#3B8FC2;
+    text-align:center;
+    text-decoration:underline white;
+    
+}
+
+#submit+a>div:hover{
+    margin-top:2%;
+     color:#3B8FC2;
+     text-align:center;
+     text-decoration:underline #3B8FC2;
+     
+ }
