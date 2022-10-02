@@ -12,7 +12,7 @@ width:35%;
 margin:auto;
 height:auto;
 margin-top:5%;
-padding:3% 3%;
+padding:2% 3%;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
 }
@@ -185,6 +185,15 @@ form>a>p:hover{
     font-weight:500;
     cursor:pointer;
 }
+
+#submit:hover{
+
+   
+   
+    background-color:#618fac;
+    
+}
+
 
 form>div{
 

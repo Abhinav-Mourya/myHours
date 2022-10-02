@@ -1,0 +1,242 @@
+#navbar+p{
+
+
+    text-align:center;
+    margin-top:15%;
+    font-family: Avenirnextltpro, sans-serif;
+    font-size:72px;
+    font-weight:100;
+    line-height:86.4px;
+    color: rgb(33, 37, 41);
+    }
+    
+    #navbar+p+h2{
+    
+    
+     text-align:center;
+     margin-top:-2%; 
+     font-family: "Avenir Next", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: rgb(55, 93, 117);
+    }
+    
+    #navbar+p+h2+p{
+    
+    
+    text-align:center;  
+    width:80%;
+    margin:auto;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    color: rgb(55, 93, 117);
+    }
+    
+    
+    .get_started_button{
+    
+         
+        margin:auto;
+        text-align:center;
+        margin-top:5%;
+        font-size:20px;
+        font-family:Avenirnextltpro, sans-serif;
+        background-color:#3B8FC2;
+        color:white;
+        padding:1.5% 2%;
+        border-radius:8px;
+        font-weight:600;
+        cursor:pointer;
+      }
+      
+      .get_started_button:hover{
+      
+        background-color:#225270;
+      }
+
+
+      #middle_end{
+
+        text-align:center;
+        font-family:"Avenir Next", sans-serif;
+        font-size:36px;
+        font-weight:600;
+        line-height: 43.2px;
+        color:rgb(55, 93, 117);
+        margin-top:10%;
+    }
+    
+    #middle_end+p{
+    
+        margin:auto;
+        text-align:center;
+        font-family:Avenirnextltpro, sans-serif;
+        font-size:18px;
+        font-weight:400;
+        line-height:27px;
+       color: rgb(33, 37, 41);
+       margin-top:3%;
+    }
+    
+    #middle_end+p+p{
+    
+        margin:auto;
+        text-align:center;
+        font-family:Avenirnextltpro, sans-serif;
+        font-size:18px;
+        font-weight:400;
+        line-height:27px;
+       color: rgb(33, 37, 41);
+    }
+    
+    #middle_end_soon{
+    
+        width:90%;
+        margin:auto;
+        height:auto;
+       display:flex;
+       justify-content:space-evenly;
+       margin-top:5%;
+      
+    }
+    
+    #middle_end_soon>div{
+    
+        width:30%;
+    }
+    
+    #middle_end_soon>div>p{
+    
+        width:87%;
+        font-family:Avenirnextltpro, sans-serif;
+        font-size: 18px;
+        font-weight:400;
+        line-height:23.4px;
+        color: rgb(33, 37, 41);
+    }
+    
+    #middle_end_soon>div>h3{
+    
+        font-family: Avenirnextltpro, sans-serif;
+        font-size: 18px;
+        font-weight:900;
+        line-height: 23.4px;
+        color: rgb(33, 37, 41);
+        margin-top:7%;
+        margin-bottom:11%;
+    }
+
+    .link_and_arrow{
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:3%;
+    }
+    
+    
+    .link_and_arrow>a>div{
+    
+        font-family:"Avenir Next", sans-serif;
+        font-size:25px;
+        font-weight:500;
+        line-height:30px;
+        color: rgb(59, 143, 194);
+        text-decoration:underline;
+    }
+    
+    .link_and_arrow>a>div:hover{
+    
+        text-decoration:underline white;
+    }
+    
+    .link_and_arrow>div{
+    
+        font-size:30px;
+        color: rgb(59, 143, 194);
+        margin-left:1%;
+    }
+
+    #boxes{
+
+       
+        width:90%;
+        margin:auto;
+        height:auto;
+        display:flex;
+        justify-content:space-around;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+
+    #boxes>div{
+
+        height:auto;
+        width:30%;
+       
+    }
+
+    #boxes>div>div{
+
+        
+        padding:5%;
+        border-radius:10px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin-bottom:9%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    #boxes>div>div>img{
+      
+        width:70%;
+    }
+    
+ #boxes>div>div>h1{
+
+ 
+ width:100%;
+ font-family: "Avenir Next", sans-serif;
+font-size: 30px;
+font-weight: 600;
+color:rgb(55, 93, 117);
+}
+
+#boxes>div>div>p{
+
+font-family:Avenirnextltpro, sans-serif;
+font-size: 18px;
+font-weight: 400;
+color:rgb(33, 37, 41);
+margin-top:-2%;
+
+ }
+
+
+ .blue{
+
+   background-color:#F5F9FC;
+   border-color:#8bc7f5;
+ }
+
+ .green{
+
+    background-color:#EFFBF3;
+    border-color:#90fab3;
+}
+
+.yellow{
+
+    background-color:#FFFCF2;
+    border-color:#f7d978;
+}
+
+.pink{
+
+    background-color:#FDF5F6;
+    border-color:#f18490;
+}
