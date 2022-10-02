@@ -134,7 +134,7 @@ b{
     height:auto;
     display:flex;
     justify-content:space-between;
-    align-items:start;
+    align-items:center;
     margin-top:10%;
 }
 
@@ -191,7 +191,7 @@ width:30%;
     height:auto;
     display:flex;
     justify-content:space-between;
-    align-items:start;
+    align-items:center;
     margin-top:10%;
 }
 
@@ -311,6 +311,13 @@ width:30%;
     align-items:center;
 }
 
+.template+div+h1+div>div:nth-child(1){
+
+    background:url(https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc91878f08abb5f52fdfe77_Polygon%201.png);
+ 
+   background-repeat: no-repeat;
+ }
+
 .template+div+h1+div>div:nth-child(2){
 
    background:url(https://uploads-ssl.webflow.com/5c77a918ef19681741be7bca/5fc9199aba16f3d43d7e7547_Polygon%202.png);
@@ -320,12 +327,31 @@ width:30%;
 
 .template+div+h1+div>div:nth-child(3){
 
-    background:url();
+    background:url(https://ourimagehosting.com/images/2022/10/02/5fc919bb3ab7af761ad225f0_Polygon-21.png);
  
    background-repeat: no-repeat;
  }
 
+ .template+div+h1+div>div:nth-child(4){
 
+    background:url(https://ourimagehosting.com/images/2022/10/02/5fc919d312c3ba440fb9c340_Polygon-11.png);
+ 
+   background-repeat: no-repeat;
+ }
+
+ .template+div+h1+div>div:nth-child(5){
+
+    background:url(https://ourimagehosting.com/images/2022/10/02/5fc919ef96a46fcd34ee713e_Polygon-22.png);
+ 
+   background-repeat: no-repeat;
+ }
+
+ .template+div+h1+div>div:nth-child(6){
+
+    background:url(https://ourimagehosting.com/image/pMl8dhttps://ourimagehosting.com/image/pM8mP);
+ 
+   background-repeat: no-repeat;
+ }
 
 
 
@@ -571,7 +597,6 @@ color: rgb(55, 93, 117);
     height:auto;
     display:flex;
     justify-content:space-between;
-   
     margin-top:12%;
   }
 
@@ -692,5 +717,61 @@ color: rgb(55, 93, 117);
     color:rgb(55, 93, 117);
     margin-top:7%;
   }
+
+
+
+
+  @media all and (min-width:441px) and (max-width:991px){
+          
+   #navbar+div+div+div>div:nth-child(2){
+
+    justify-content:space-evenly;
+   }
+
+
+   .template>div:nth-child(1){
+     
+  border:1px solid;
+    width:50%;
+   }
+
+   .template>div:nth-child(2){
+     
+    border:1px solid;
+      width:40%;
+     }
+
+
+
+
+     .reverse_template>div:nth-child(1){
+     
+        border:1px solid;
+          width:40%;
+         }
+      
+         .reverse_template>div:nth-child(2){
+           
+          border:1px solid;
+            width:50%;
+           }
+
+      
+    #bottom{
+
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+      
+        margin-top:12%;
+      }   
+  
+}
+
+@media all and (min-width:380px) and (max-width:440px){
+  
+
+   
+}
 
   
